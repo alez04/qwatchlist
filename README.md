@@ -3,7 +3,7 @@
 # Qubic Watchlist Notification & Monitoring Service - Proposal
 
 **Project Lead:** alez_nv
-**Version:** 1.0
+**Version:** 1.1 (updated diagrams)
 **Last update**: 05/19/2025
 
 ## 1. Abstract
@@ -55,46 +55,7 @@ The Qubic Watchlist Service will offer the following core functionalities:
 
 The service will be built with a modular architecture to ensure scalability and maintainability. The following diagram illustrates the high-level system architecture:
 
-```mermaid
-graph TD
-    subgraph User Interaction
-        UI[Frontend UI (React)]
-        User[User]
-    end
-
-    subgraph External Integrations
-        Qubic[Qubic Blockchain]
-        QubicMetrics[QubicMetrics]
-        EmailSvc[Email Service]
-        TelegramSvc[Telegram API]
-        DiscordSvc[Discord Webhooks]
-    end
-
-    subgraph Qubic Watchlist Service
-        API[API Layer (REST)]
-        Backend[Backend Alert Engine]
-        DB[(Database: Watchlists, User Config)]
-        Notifier[Notification Module]
-        Polling[Polling Engine (QubiPy/Alternative)]
-    end
-
-    User -- Manages Watchlist/Views Dashboards --> UI
-    UI -- Interacts via --> API
-
-    API -- Manages Data --> Backend
-    API -- Serves Data to --> dApps[dApps/Third-Party Services]
-
-    Backend -- Stores/Retrieves Data --> DB
-    Backend -- Uses --> Polling
-    Backend -- Triggers --> Notifier
-
-    Polling -- Monitors --> Qubic
-    Polling -- Fetches Metrics from --> QubicMetrics
-
-    Notifier -- Sends Alerts via --> EmailSvc
-    Notifier -- Sends Alerts via --> TelegramSvc
-    Notifier -- Sends Alerts via --> DiscordSvc
-```
+![Architecture](architecture.svg)
 
 **Core Components:**
 
@@ -135,29 +96,7 @@ The project is estimated to take **8 weeks** with a dedicated team comprising on
 
 The total budget of €15,000 will be disbursed based on the following milestones over the 8-week duration. The timeline is visualized in the Gantt chart below:
 
-```mermaid
-gantt
-    dateFormat YYYY-MM-DD
-    title Qubic Watchlist Service - Development Timeline
-    excludes    weekends
-    %% `axisFormat` defines the format of the time axis
-    axisFormat %W
-
-    section Project Setup & Planning
-    Kickoff Payment & Activities :milestone, m0, 2025-05-20, 1w
-
-    section Core Engine Development
-    Milestone 1 - Alert Engine Core :crit, m1, after m0, 2w
-
-    section Frontend Development
-    Milestone 2 - Frontend Watchlist UI :m2, after m1, 2w
-
-    section Integrations
-    Milestone 3 - Notifications Integration :m3, after m2, 1w
-
-    section Finalization & Delivery
-    Final Milestone - Delivery & Documentation :crit, m4, after m3, 2w
-```
+![Timeline](timeline.svg)
 
 **Milestone Breakdown:**
 
@@ -241,7 +180,7 @@ The choice of model, or a combination thereof, will be further evaluated based o
 
 The initial development will be carried out by a lean and experienced team:
 
-- **alez_nv (Full-Stack Engineer)** is the visionary founder and principal software architect behind Navia Tech. With a robust background in full-stack development, he spearheads the technical direction of the company.
+- **alez_nv (Full-Stack Engineer)** is the founder and principal software architect behind Navia Tech. With a robust background in full-stack development, he spearheads the technical direction of the company.
 - **alexandra_nv: UI/UX Designer:** Responsible for designing an intuitive and user-friendly interface, ensuring a seamless user experience.
 
 ## 9. Marketing and Communication Strategy
