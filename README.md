@@ -100,25 +100,16 @@ The total budget of €15,000 will be disbursed based on the following milestone
 
 **Milestone Breakdown:**
 
-1.  **Kickoff Payment – €3,000 (20%)**
+1.  **Milestone 1 – Alert Engine Core – €3,000 (20%)**
 
-    - **Timeline:** Week 1
-    - **Activities:**
-      - Detailed project planning and finalization of architecture.
-      - Setup of development, testing, and production environments.
-      - Repository setup and initial project scaffolding.
-      - Technical validation of core assumptions and Qubic integration points.
-
-2.  **Milestone 1 – Alert Engine Core – €3,000 (20%)**
-
-    - **Timeline:** Weeks 2–3
+    - **Timeline:** Weeks 1-2
     - **Activities:**
       - Development of the QubiPy-based (or alternative) polling engine.
       - Implementation of the event queue and internal alert processing logic.
       - Initial database schema design and implementation for watchlists.
       - Testnet integration with basic sample alerts.
 
-3.  **Milestone 2 – Frontend Watchlist UI – €2,250 (15%)**
+2.  **Milestone 2 – Frontend Watchlist UI – €3,750 (25%)**
 
     - **Timeline:** Weeks 4–5
     - **Activities:**
@@ -127,7 +118,7 @@ The total budget of €15,000 will be disbursed based on the following milestone
       - Client-side logic for filters and local state persistence.
       - Integration with backend APIs for watchlist management.
 
-4.  **Milestone 3 – Notifications Integration – €2,250 (15%)**
+3.  **Milestone 3 – Notifications Integration – €3,750 (25%)**
 
     - **Timeline:** Week 6
     - **Activities:**
@@ -137,7 +128,7 @@ The total budget of €15,000 will be disbursed based on the following milestone
       - Development of rate-limiting mechanisms for notifications.
       - End-to-end alert testing and verification across all channels.
 
-5.  **Final Milestone – Delivery & Documentation – €4,500 (30%)**
+4.  **Final Milestone – Delivery & Documentation – €4,500 (30%)**
     - **Timeline:** Weeks 7–8
     - **Activities:**
       - Full system integration, rigorous testing (unit, integration, user acceptance).
@@ -145,7 +136,6 @@ The total budget of €15,000 will be disbursed based on the following milestone
       - Deployment to a staging/production environment.
       - Creation of comprehensive API documentation.
       - Preparation of user guides and tutorials.
-      - Project handover and knowledge transfer.
 
 ## 7. Sustainability and Long-Term Vision
 
@@ -175,6 +165,10 @@ To ensure the long-term viability and continuous improvement of the Qubic Watchl
   - This would involve custom deployment and licensing agreements, providing a tailored solution for high-demand clients.
 
 The choice of model, or a combination thereof, will be further evaluated based on community feedback, adoption rates, and strategic alignment with the Qubic ecosystem's growth.
+
+The service will be maintained and operated by Navia Tech (alez_nv’s team) after project delivery. Initially, a paid subscription plan will be implemented using Stripe for payment processing. Integration of QUBIC token payments is planned as a future enhancement, enabling seamless in-ecosystem transactions.
+
+Revenue from subscriptions and ecosystem partnerships will support ongoing operations and development. No additional funding from the Qubic Foundation is expected after incubation, ensuring the project’s financial independence.
 
 ## 8. Team
 
