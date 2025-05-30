@@ -3,8 +3,8 @@
 # Qubic Watchlist Notification & Monitoring Service - Proposal
 
 **Project Lead:** alez_nv
-**Version:** 1.1 (updated diagrams)
-**Last update**: 05/19/2025
+**Version:** 1.2 (update milestones and budget; clarify maintenance and payment plans)
+**Last update**: 05/30/2025
 
 ## 1. Abstract
 
@@ -111,7 +111,7 @@ The total budget of €15,000 will be disbursed based on the following milestone
 
 2.  **Milestone 2 – Frontend Watchlist UI – €3,750 (25%)**
 
-    - **Timeline:** Weeks 4–5
+    - **Timeline:** Weeks 3–4
     - **Activities:**
       - Development of the React-based watchlist interface (add/remove addresses/contracts).
       - Implementation of UI components for managing notification preferences.
@@ -120,7 +120,7 @@ The total budget of €15,000 will be disbursed based on the following milestone
 
 3.  **Milestone 3 – Notifications Integration – €3,750 (25%)**
 
-    - **Timeline:** Week 6
+    - **Timeline:** Week 5-6
     - **Activities:**
       - Integration with Email services.
       - Setup and integration of Telegram and Discord webhooks.
@@ -129,7 +129,7 @@ The total budget of €15,000 will be disbursed based on the following milestone
       - End-to-end alert testing and verification across all channels.
 
 4.  **Final Milestone – Delivery & Documentation – €4,500 (30%)**
-    - **Timeline:** Weeks 7–8
+    - **Timeline:** Weeks 7-8
     - **Activities:**
       - Full system integration, rigorous testing (unit, integration, user acceptance).
       - Development and integration of basic dashboard widgets (optional, based on feasibility within the timeline).
@@ -168,7 +168,7 @@ The choice of model, or a combination thereof, will be further evaluated based o
 
 The service will be maintained and operated by Navia Tech (alez_nv’s team) after project delivery. Initially, a paid subscription plan will be implemented using Stripe for payment processing. Integration of QUBIC token payments is planned as a future enhancement, enabling seamless in-ecosystem transactions.
 
-Revenue from subscriptions and ecosystem partnerships will support ongoing operations and development. No additional funding from the Qubic Foundation is expected after incubation, ensuring the project’s financial independence.
+Revenue from subscriptions will support ongoing operations and development. No additional funding from the QES is expected after incubation, ensuring the project’s financial independence.
 
 ## 8. Team
 
