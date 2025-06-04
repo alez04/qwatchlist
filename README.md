@@ -1,10 +1,10 @@
 <img src="banner.png" alt="Banner" style="width:100%; height:auto;" />
 
-# Qubic Watchlist Notification & Monitoring Service - Proposal
+# Qubic Watchlist - Proposal
 
 **Project Lead:** alez_nv
-**Version:** 1.3 (dashboard alignment & new budget)
-**Last update**: 05/04/2025
+**Version:** 1.4 (converted currencies)
+**Last update**: 06/04/2025
 
 ## 1. Abstract
 
@@ -80,7 +80,7 @@ This modular design will facilitate independent development and scaling of each 
 
 The project is estimated to take **12 weeks** with a dedicated team comprising one Full-Stack Engineer and one UI/UX Designer.
 
-- **Total Estimated Budget:** €20,000
+- **Total Estimated Budget:** $22,500
 - **Implementation Timeline:** 12 weeks
 
 **Key Deliverables:**
@@ -94,11 +94,11 @@ The project is estimated to take **12 weeks** with a dedicated team comprising o
 
 ## 6. Payment Milestones
 
-The total budget of €20,000 will be disbursed based on the following milestones over the 12-week duration.
+The total budget of $22,500 will be disbursed based on the following milestones over the 12-week duration.
 
 **Milestone Breakdown:**
 
-1.  **Milestone 1 – Alert Engine Core – €4,000 (20%)**
+1.  **Milestone 1 – Alert Engine Core – $4,500 (20%)**
 
     - **Timeline:** Weeks 1-2
     - **Activities:**
@@ -107,7 +107,7 @@ The total budget of €20,000 will be disbursed based on the following milestone
       - Initial database schema design and implementation for watchlists.
       - Testnet integration with basic sample alerts.
 
-2.  **Milestone 2 – Frontend Watchlist UI – €4,000 (20%)**
+2.  **Milestone 2 – Frontend Watchlist UI – $4,500 (20%)**
 
     - **Timeline:** Weeks 3–4
     - **Activities:**
@@ -116,7 +116,7 @@ The total budget of €20,000 will be disbursed based on the following milestone
       - Client-side logic for filters and local state persistence.
       - Integration with backend APIs for watchlist management.
 
-3.  **Milestone 3 – Notifications Integration – €3,000 (15%)**
+3.  **Milestone 3 – Notifications Integration – $3,375 (15%)**
 
     - **Timeline:** Week 5-6
     - **Activities:**
@@ -126,7 +126,7 @@ The total budget of €20,000 will be disbursed based on the following milestone
       - Development of rate-limiting mechanisms for notifications.
       - End-to-end alert testing and verification across all channels.
 
-4.  **Milestone 4 – Feature Enhancements & Expansion – €3,000 (15%)**
+4.  **Milestone 4 – Feature Enhancements & Expansion – $3,3750 (15%)**
 
     - **Timeline:** Weeks 7-9
     - **Activities:**
@@ -138,7 +138,7 @@ The total budget of €20,000 will be disbursed based on the following milestone
       - Data import/export functionality (JSON/CSV for watchlists).
       - Additional user feedback integration and polish.
 
-5.  **Final Milestone – Delivery & Documentation – €6,000 (30%)**
+5.  **Final Milestone – Delivery & Documentation – $6,750 (30%)**
     - **Timeline:** Weeks 9-12
     - **Activities:**
       - Full system integration, rigorous testing (unit, integration, user acceptance).
