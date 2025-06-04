@@ -3,12 +3,12 @@
 # Qubic Watchlist Notification & Monitoring Service - Proposal
 
 **Project Lead:** alez_nv
-**Version:** 1.2 (update milestones and budget; clarify maintenance and payment plans)
-**Last update**: 05/30/2025
+**Version:** 1.3 (dashboard alignment & new budget)
+**Last update**: 05/04/2025
 
 ## 1. Abstract
 
-The Qubic Watchlist Notification & Monitoring Service is a lightweight, developer-centric tool designed to provide real-time on-chain activity monitoring for the Qubic ecosystem. Users will be able to track specific wallet addresses, smart contracts, and transaction patterns, receiving timely alerts via multiple channels including email, Telegram, and Discord. This service aims to enhance user experience, security, and developer efficiency by offering actionable insights and automation capabilities. It directly complements Qubic’s existing infrastructure and integration-first strategy.
+The Qubic Watchlist Notification & Monitoring Service is an advanced, developer-focused platform for real-time on-chain monitoring in the Qubic ecosystem. It empowers users to track wallets and smart contracts, view detailed transaction histories, and receive instant notifications via email, Telegram, and Discord. With features like smart contract state monitoring, customizable dashboards, and robust search and filtering, the service enhances both user experience and security. Designed for maximum flexibility and future growth, it integrates seamlessly with Qubic’s infrastructure and APIs—making it an essential tool for developers, traders, and administrators seeking actionable blockchain insights and automation.
 
 ## 2. Introduction and Motivation
 
@@ -78,10 +78,10 @@ This modular design will facilitate independent development and scaling of each 
 
 ## 5. Development Scope & Timeline
 
-The project is estimated to take **8 weeks** with a dedicated team comprising one Full-Stack Engineer and one UI/UX Designer.
+The project is estimated to take **12 weeks** with a dedicated team comprising one Full-Stack Engineer and one UI/UX Designer.
 
-- **Total Estimated Budget:** €15,000
-- **Implementation Timeline:** 8 weeks
+- **Total Estimated Budget:** €20,000
+- **Implementation Timeline:** 12 weeks
 
 **Key Deliverables:**
 
@@ -94,13 +94,11 @@ The project is estimated to take **8 weeks** with a dedicated team comprising on
 
 ## 6. Payment Milestones
 
-The total budget of €15,000 will be disbursed based on the following milestones over the 8-week duration. The timeline is visualized in the Gantt chart below:
-
-![Timeline](timeline.svg)
+The total budget of €20,000 will be disbursed based on the following milestones over the 12-week duration.
 
 **Milestone Breakdown:**
 
-1.  **Milestone 1 – Alert Engine Core – €3,000 (20%)**
+1.  **Milestone 1 – Alert Engine Core – €4,000 (20%)**
 
     - **Timeline:** Weeks 1-2
     - **Activities:**
@@ -109,7 +107,7 @@ The total budget of €15,000 will be disbursed based on the following milestone
       - Initial database schema design and implementation for watchlists.
       - Testnet integration with basic sample alerts.
 
-2.  **Milestone 2 – Frontend Watchlist UI – €3,750 (25%)**
+2.  **Milestone 2 – Frontend Watchlist UI – €4,000 (20%)**
 
     - **Timeline:** Weeks 3–4
     - **Activities:**
@@ -118,7 +116,7 @@ The total budget of €15,000 will be disbursed based on the following milestone
       - Client-side logic for filters and local state persistence.
       - Integration with backend APIs for watchlist management.
 
-3.  **Milestone 3 – Notifications Integration – €3,750 (25%)**
+3.  **Milestone 3 – Notifications Integration – €3,000 (15%)**
 
     - **Timeline:** Week 5-6
     - **Activities:**
@@ -128,8 +126,20 @@ The total budget of €15,000 will be disbursed based on the following milestone
       - Development of rate-limiting mechanisms for notifications.
       - End-to-end alert testing and verification across all channels.
 
-4.  **Final Milestone – Delivery & Documentation – €4,500 (30%)**
-    - **Timeline:** Weeks 7-8
+4.  **Milestone 4 – Feature Enhancements & Expansion – €3,000 (15%)**
+
+    - **Timeline:** Weeks 7-9
+    - **Activities:**
+      - Implementation of the Transaction History Module for real-time feeds.
+      - Smart Contract State Monitoring for variable and state changes.
+      - Dashboard Overview Page with system-wide summaries.
+      - Advanced search and filter tools for tracked entities.
+      - UI/UX enhancements (dark mode, responsive layouts, customizable components).
+      - Data import/export functionality (JSON/CSV for watchlists).
+      - Additional user feedback integration and polish.
+
+5.  **Final Milestone – Delivery & Documentation – €6,000 (30%)**
+    - **Timeline:** Weeks 9-12
     - **Activities:**
       - Full system integration, rigorous testing (unit, integration, user acceptance).
       - Development and integration of basic dashboard widgets (optional, based on feasibility within the timeline).
@@ -137,7 +147,7 @@ The total budget of €15,000 will be disbursed based on the following milestone
       - Creation of comprehensive API documentation.
       - Preparation of user guides and tutorials.
 
-## 7. Sustainability and Long-Term Vision
+## 8. Sustainability and Long-Term Vision
 
 To ensure the long-term viability and continuous improvement of the Qubic Watchlist Service, several monetization and sustainability models are being considered:
 
@@ -170,7 +180,7 @@ The service will be maintained and operated by Navia Tech (alez_nv’s team) aft
 
 Revenue from subscriptions will support ongoing operations and development. No additional funding from the QES is expected after incubation, ensuring the project’s financial independence.
 
-## 8. Team
+## 9. Team
 
 The initial development will be carried out by a lean and experienced team:
 
@@ -231,4 +241,4 @@ The Qubic Watchlist Notification & Monitoring Service offers a significant enhan
 
 With a clear development plan, a modest budget, and strong potential for future expansion and sustainability, this project promises immediate value in terms of visibility, security, and automation for all Qubic users and developers.
 
-We are seeking approval and funding to commence this 8-week development cycle and deliver a valuable tool to the Qubic community. We are confident that the Qubic Watchlist Service will become an indispensable part of the Qubic developer toolkit.
+We are seeking approval and funding to commence this 12-week development cycle and deliver a valuable tool to the Qubic community. We are confident that the Qubic Watchlist Service will become an indispensable part of the Qubic developer toolkit.
