@@ -126,7 +126,7 @@ The total budget of $22,500 will be disbursed based on the following milestones 
       - Development of rate-limiting mechanisms for notifications.
       - End-to-end alert testing and verification across all channels.
 
-4.  **Milestone 4 – Feature Enhancements & Expansion – $3,3750 (15%)**
+4.  **Milestone 4 – Feature Enhancements & Expansion – $3,375 (15%)**
 
     - **Timeline:** Weeks 7-9
     - **Activities:**
